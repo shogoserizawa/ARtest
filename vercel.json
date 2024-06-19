@@ -1,3 +1,6 @@
 {
-  "rewrites": [{ "source": "/data/(.*)", "destination": "/data/$1" }]
-}
+    "routes": [
+      { "src": "/data/(.*)", "dest": "/public/data/$1" }
+    ]
+  }
+  
